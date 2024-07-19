@@ -1,0 +1,84 @@
+body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .bg {
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .blur {
+        background-image: url("plant2.jpg");
+        background-color: rgba(15, 212, 15, 0.688);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: #000 5px;
+
+    }
+
+    .login-form {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-form h2 {
+        margin-bottom: 20px;
+    }
+
+    .login-form input {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: #000 5px;
+
+    }
+
+    .login-form button {
+        width: 40%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: rgb(255, 191, 0);
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .login-form button:hover {
+        background: rgb(0, 234, 255);
+    }
+
+    .login-form a {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .login-form a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+   #plant-animie{
+        position: relative;
+       
+   }
